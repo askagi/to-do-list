@@ -1,0 +1,14 @@
+.content {
+    width: 100%;
+    height: 20rem;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.content img {
+    width: 12.6rem;
+    height: 4.8rem;
+}

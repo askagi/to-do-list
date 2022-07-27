@@ -1,0 +1,84 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 35.2rem 5rem;
+}
+
+.tasksContainer {
+    width: 100%;
+    margin-top: 6.4rem;
+}
+
+.tasksContainer>header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createdTasks strong,
+.completedTasks strong {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-right: 0.8rem;
+}
+
+.createdTasks strong {
+    color: var(--blue);
+}
+
+.completedTasks strong {
+    color: var(--purple);
+}
+
+.createdTasks span,
+.completedTasks span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0.2rem 0.8rem;
+    background: var(--gray-400);
+    color: var(--gray-100);
+    border-radius: 999px;
+}
+
+.body {
+    width: 100%;
+    margin-top: 2.4rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.4rem;
+}
+
+.empty svg {
+    color: var(--gray-400);
+}
+
+.empty strong {
+    font-weight: 700;
+    line-height: 2rem;
+    color: var(--gray-300);
+    margin-top: 1.6rem;
+}
+
+.empty span {
+    color: var(--gray-300);
+    line-height: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        padding: 5rem;
+    }
+}
