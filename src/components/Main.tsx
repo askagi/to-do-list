@@ -4,15 +4,15 @@ import styles from './Main.module.css';
 import { Task } from './Task';
 import { TaskForm } from './TaskForm';
 
-interface Task {
-    id: number | String;
+export interface Task {
+    id: number;
     content: string;
     completed: boolean;
 }
 
 export function Main() {
-    const [update, setUpdate] = useState(false)
-    const [tasks, setTask] = useState([]);
+    const [update, setUpdate] = useState<boolean>(false)
+    const [tasks, setTask] = useState<Task[]>([]);
 
     function addTask(newTask: Task) {
         setTask([...tasks, newTask]);
@@ -33,15 +33,11 @@ export function Main() {
         setUpdate(!update);
     }
 
-    useEffect(() => {
-
-    }, update)
+    useEffect(() => { }, [update]);
 
     return (
         <main className={styles.wrapper}>
-            <TaskForm
-                addTask={addTask}
-            />
+            <TaskForm addTask={addTask} />
 
             <div className={styles.tasksContainer}>
                 <header>

@@ -3,15 +3,16 @@ import { useEffect, useState } from 'react';
 import styles from './Task.module.css';
 
 interface Task {
-    id: number | String;
+    id: number;
     content: string;
     completed: boolean;
 }
 
 interface TaskProps {
     task: Task;
-    onRemovedTask: (task: Number | String) => void;
+    onRemovedTask: (task: Number) => void;
     onUpdateTask: (task: Task) => void;
+    addTask: (task: Task) => void;
 }
 
 export function Task({ task, onRemovedTask, onUpdateTask }: TaskProps) {

@@ -1,15 +1,10 @@
 import { PlusCircle } from 'phosphor-react';
 import { ChangeEvent, FormEvent, InputHTMLAttributes, useState } from 'react';
+import { Task } from './Main';
 import styles from './TaskForm.module.css';
 
-interface Task {
-    id: number | String;
-    content: string;
-    completed: boolean;
-}
 
 interface TaskProps {
-    task: Task;
     addTask: (task: Task) => void;
 }
 
