@@ -1,4 +1,4 @@
-![](https://i.imgur.com/974mYvy.png)
+![](https://i.imgur.com/eTToqSU.png)
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/askagi/to-do-list?color=%2304D361">
 
@@ -17,7 +17,7 @@
 
 ## 💻 Sobre o projeto
 
-📘️ Desafio 01 da trilha Ignite React Native - Aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
+📘️ Desafio 01 da trilha Ignite ReactJs - Aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
 
 - Adicionar uma nova tarefa
 - Marcar e desmarcar uma tarefa como concluída
@@ -30,20 +30,21 @@
 
 O layout da aplicação está disponível no Figma:
 <p>
-    <a href="https://www.figma.com/file/icoXh6a891W9dpWeHAHTQP/ToDo-List-(Copy)?node-id=56%3A96">
-  <img alt="Made by codilândia" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+    <a href="https://www.figma.com/file/EN2yb0EKl977cGWKIRx2Ut/ToDo-List-(Copy)?node-id=56%3A99">
+  <img alt="" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
     <a href="https://www.rocketseat.com.br/">
-    <img alt="Feito pela Codilândia" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
+    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
   </a>
 
 </p>
 
-### Mobile
- 
-| ![](https://i.imgur.com/2iIS9dd.png)| ![](https://i.imgur.com/Cdn8IjZ.png)| ![](https://i.imgur.com/BgrrZJM.png)|
-| -------- | -------- | -------- |
-     
+### Screenshots
+
+![](https://i.imgur.com/gR70lWE.png)
+
+![](https://i.imgur.com/f70eqZQ.png)
+
 ---
 ## 🚀 Como executar o projeto
 
@@ -77,8 +78,9 @@ $ yarn start
 As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Website**  
-- **[React native](https://reactjs.org/)**
-- **[Expo](https://expo.dev/)**
+- **[React](https://reactjs.org/)**
+- **[Vitejs](https://vitejs.dev/)**
+- **[phosphor-react](https://phosphoricons.com/)**
 
 ---
 ## 🦸 Autor
